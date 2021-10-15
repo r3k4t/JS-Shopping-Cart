@@ -20,7 +20,6 @@ input.cart, button.cart {
   cursor: pointer;
 }
 
-/* (B) PRODUCTS LIST */
 #cart-products {
   display: grid;
   grid-template-columns: auto auto;
