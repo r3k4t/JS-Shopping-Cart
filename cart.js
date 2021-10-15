@@ -1,17 +1,16 @@
 let cart = {
-  // (A) PROPERTIES
+  
   hPdt: null, // HTML products list
   hItems: null, // HTML current cart
   items: {}, // Current items in cart
   iURL: "images/", // Product image URL folder
 
-  // (B) LOCALSTORAGE CART
-  // (B1) SAVE CURRENT CART INTO LOCALSTORAGE
+ 
   save: function () {
     localStorage.setItem("cart", JSON.stringify(cart.items));
   },
 
-  // (B2) LOAD CART FROM LOCALSTORAGE
+
   load: function () {
     cart.items = localStorage.getItem("cart");
     if (cart.items == null) { cart.items = {}; }
