@@ -1,2 +1,2 @@
-# JS-Shopping-Cart
-A Simple Shopping Cart .
+# JS Shopping Cart
+
